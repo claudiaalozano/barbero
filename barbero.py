@@ -54,6 +54,12 @@ def añadir_cliente():
                     numero_clientes += 1
                     mutex.release()
                     sleep(0.4)
-                    
+                else:
+                    numero_clientes += 1
+                    print(f"Cliente número {numero_clientes} que visita la tienda.")
+                    Barbero.clientes.append(numero_clientes)
+                    print("Cliente añadido a la cola.")
+                    print("Cola clientes:" + str(len(Barbero.clientes)) + "/" + str(7))
+                    sleep(0.4)
         
         
