@@ -1,5 +1,5 @@
-# barbero
-Mi dirección de Github es:
+# Barbero durmiente
+Mi dirección de Github es: https://github.com/claudiaalozano/barbero.git
 
 El problema del barbero durmiente es un problema de sincronización en la programación. En nuestra barbería el barbero puede atender a un máximo de 7 clientes a la vez, por lo que si llega otro cliente, tendrá que esperar. Si no hay cliente el barbero duerme, en el momento en el que llegue uno, el barbero es despertado.
 
